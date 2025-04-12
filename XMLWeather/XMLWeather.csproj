@@ -70,6 +70,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SearchScreen.Designer.cs">
+      <DependentUpon>SearchScreen.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="CurrentScreen.resx">
       <DependentUpon>CurrentScreen.cs</DependentUpon>
     </EmbeddedResource>
@@ -89,6 +95,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SearchScreen.resx">
+      <DependentUpon>SearchScreen.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -102,6 +111,75 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Rain3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\broken clouds.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\broken_clouds-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snow-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snow-removebg-preview %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\broken_clouds-removebg-preview-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heavy_snow-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rain-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scattered_clouds-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\partlycloudy-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heavy rain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heavy_rain-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heavy_rain-removebg-preview %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloudy background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thunderstorm-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clear-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1530391_weather_clouds_sun_sunny_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2995006_snow_forecast_snowflake_weather_cold_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1530388_weather_christmas_snow_snowflake_winter_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1530385_weather_clouds_rain_storm_thunder_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1530390_weather_clouds_cloudy_rain_sunny_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1530392_weather_sun_sunny_temperature_icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
